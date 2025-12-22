@@ -1,0 +1,29 @@
+clear all;
+clc
+I=imread('Maulik.png'); n
+subplot(231);
+I1=rgb2gray(I);
+imshow(I);
+subplot(232);
+imshow(I1);
+display(I1(1:10,1:10));
+display(I(1:10,1:10,2));
+
+I2=I1(1:2:end,1:2:end);
+subplot(233);
+imshow(I1);
+
+I3=I1(1:4:end,1:4:end);
+subplot(234);
+imshow(I3);
+
+
+I4=I1(1:8:end,1:8:end);
+subplot(235);
+imshow(I4);
+
+
+I5=I1(1:16:end,1:16:end);
+subplot(236);
+imshow(I5);
+
