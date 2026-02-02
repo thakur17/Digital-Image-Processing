@@ -2,9 +2,9 @@
 clc;
 clear;
 close all;
-a = imread('Maulik.png');
-a = rgb2gray(a);
-%a = imread('Cameraman.tif'); % Input image
+%a = imread('Maulik.png');
+%a = rgb2gray(a);
+a = imread('Cameraman.tif'); % Input image
 a = im2double(a); 
 subplot(2,3,1);
 imshow(a);
