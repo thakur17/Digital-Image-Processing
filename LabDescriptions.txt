@@ -1,0 +1,22 @@
+Lab1: Basic pixel level processing
+Objective: Processing the images with basic transformation functions at the pixel level using MATLAB.
+(ref. basicpixelProessing.m)
+
+Lab2: Histogram equalization	
+Objective: Image enhancement using histogram equalization in MATLAB
+(ref. histogram.m)
+
+Lab3: Image smoothing and sharpening in Spatial domain	
+Objective: Implementing smoothing and sharpening filters in spatial domain using MATLAB.
+
+(ref. Smoothing.m and Sharpening.m)
+
+Lab4: Low pass filters in Frequency domain	
+Objective: Implmenting ideal lowpass, Buterworth and Gaussian LP filters for image enhancement in MATLAB
+
+(ref. IdealLPFeuencyDomain.m, BWLFP.m, GLP.m)
+
+Lab5: Resotoring degraded image
+Objective: Implementing Gaussian Band Reject filter to restore the degraded image in MATLAB
+
+(ref. degradedRestore.m)
